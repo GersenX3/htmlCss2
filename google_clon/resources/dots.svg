@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <image id="image" width="52" height="14" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAAOCAYAAABgmT8gAAAA00lEQVRIid2WMQrCQBBFxzR2VuqpxEavIXgGBQ8keA0Rbaw8gwYLSZEnAxtYhAm7MTjgh2km8x/7m8kIENcY2AFn4BXqBGzCt8/5tnJhxaYFcMfWI8ykPMCNFZvqFlOjOiGUK0tNk5AyVTo7NR7gzipEZCUiI0mXzq6NaXeWBppnmBrNjL47a6AbQ0SGmcbK8LizikxDHKgv9crSQNcOxpvRd2dpoH0H48Ho+7PCCu5rbbuz/vLH2tQSKFtMZcbp48ayjsALUAFP4AhsvzhOf8cCeQO3scy099je+wAAAABJRU5ErkJggg=="/>
+  </defs>
+  <use id="Elipse_1_copia_2" data-name="Elipse 1 copia 2" x="4" y="23" xlink:href="#image"/>
+  <use id="Elipse_1_copia_3" data-name="Elipse 1 copia 3" x="4" y="41" xlink:href="#image"/>
+  <use id="Elipse_1_copia_4" data-name="Elipse 1 copia 4" x="4" y="5" xlink:href="#image"/>
+</svg>
