@@ -48,20 +48,131 @@ text-decoration: underline;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    min-height: 80vh;
+    max-height: 100vh;
+    min-height: 30vh;
+    margin-top: 20rem;
+}
+.container picture{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
 }
 #logo{
     margin: auto;
-    margin-top: 4rem;
     margin-bottom: 3rem;
 }
 .searcher{
-    width: 80%;
-    max-width: 610px;
+    display: flex;
+    width: 100vw;
+    max-width: 600px;
     border: solid 1px rgb(189, 193, 198);
-    height: 4rem;
+    height: 4.4rem;
     border-radius: 2rem;
+    justify-content: space-between;
 }
-.buttons{
+.searcher .searcher_div{
+    display: flex;
+}
+.searcher .inpLupa{
+    display: flex;
+}
+.searcher .inpLupa picture{
+    display: flex;
+    width: auto;
+}
+.inpLupa img{
+    height: 2rem;
+    padding-left: 1rem;
+}
+.searcher .inpText{
+    display: flex;
+    width: 1rem;
+    flex-grow: 1;
+}
+#searcher_text{
+    background-color: transparent;
+    color: rgb(189, 193, 198);
+    border: transparent;
+    flex-grow: 1;
 
+}
+.inpSear{
+    align-items: center;
+}
+.searcher .inpSear  picture{
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+.inpSear img{
+    padding-right: 1rem;
+}
+
+.buttons{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    margin-top: 0;
+}
+.buttons .button{
+    height: 3.5rem;
+    width: 15rem;
+    background-color: rgb(48, 49, 52);
+    color: white;
+    border: transparent;
+    border-radius: .4rem;
+}
+.buttons .button:hover{
+    border: solid 0.5px rgb(189, 193, 198);
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(23, 23, 23);
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    font-size: 1.6rem;
+}
+footer div{
+    display: flex;
+    width: 100vw;
+    overflow: auto;
+    min-height: 4.5rem;
+
+}
+footer .mex{
+    align-items: center;
+}
+footer span{
+    color: rgb(189, 193, 198);
+    padding-left: 2rem;
+}
+hr{
+    width: 100vw;
+    height: 0.25px;
+    background-color:rgb(95, 95, 95);
+    border: transparent;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_container ul{
+    display: flex;
+    list-style: none;
+}
+.footer_container li a{
+    color: rgb(189, 193, 198);
+    text-decoration: none;
+}
+.left a{
+    padding-left: 2rem;
+}
+.right a{
+    padding-right: 2rem;
 }
