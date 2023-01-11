@@ -3,6 +3,153 @@
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+    cursor:pointer;
+}
 html{
     font-size: 62.5%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    margin-top: 1rem;
+    width: 100%;
+    height: 6rem;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 4rem;
+}
+header nav .nav-right-section{
+    font-size: 1.6rem;
+    width: 25rem;
+    height: 6rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header nav .nav-right-section a{
+    margin-right: 1rem;
+    color: black;
+}
+nav .nav-right-section .menu-icon{
+    background-image: url("https://cdn-icons-png.flaticon.com/128/17/17704.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+nav .nav-right-section img{
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+main{
+    margin-top: 15rem;
+    text-align: center;
+}
+main .main-logo{
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+main .main-logo img{
+    width: 30rem;
+}
+main .main-input{
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+main .main-input-container{
+    width: 52.5rem;
+    border-radius: 10rem;
+    border: #5f6368 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input{
+    width: 45rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+}
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #4c4f53;
+}
+main .main-input .search-icon{
+    background-image: url('https://cdn0.iconfinder.com/data/icons/very-basic-2-android-l-lollipop-icon-pack/24/search-512.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+main .main-input .micro-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1425px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+    cursor: pointer;
+}
+main .main-buttons{
+    width: 53rem;
+    margin: 0 auto;
+}
+main .main-buttons div{
+    display: inline-block;
+}
+main .main-buttons button{
+    height: 3.6rem;
+    background-color: #f2f2f2;
+    border: 1px transparent;
+    font-size: 1.4rem;
+    color:#5f6368 ;
+    border-radius: 0.5rem;
+    padding: 0 1.5rem;
+    margin-right: 1.5rem;
+}
+main .main-buttons button:hover{
+    border: 1px solid #c6c6c6;
+    color: #222;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 5rem;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #f2f2f2;
+    border-top: solid 1px #e4e4e4;
+}
+footer ul{
+    margin: 1rem;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer .footer-left{
+    justify-self: left;
+}
+footer .footer-right{
+    justify-self: right;
+}
+footer ul li a{
+    margin: 1rem;
+    color: #5f6368;
 }
