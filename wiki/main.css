@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    margin-top: 2.5rem;
+}
+.container picture{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+.container picture img{
+    height: 7rem;
+}
+.container p{
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+    position: fixed;
+    top: 8rem;
+}
