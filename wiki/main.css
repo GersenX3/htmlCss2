@@ -22,7 +22,7 @@ html{
     height: 7rem;
 }
 .container #sub-title{
-    position: fixed;
+    position: absolute;
     width: 100%;
     text-align: center;
     font-size: 1.5rem;
@@ -32,7 +32,7 @@ html{
 .container #globe{
     display: flex;
     position:absolute;
-    top: 17.5rem;
+    top: 18rem;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/2244px-Wikipedia-logo-v2.svg.png");
     height: 20rem;
     width: 20rem;
@@ -57,35 +57,30 @@ html{
     flex-wrap: wrap;
     justify-content: center;
     width: 15rem;
+    cursor: pointer;
 }
 .container-subcontainer .row .button:hover{
     background-color: rgb(230, 230, 230);
     border-radius: 0.2rem;
     text-decoration: underline;
-    text-decoration-color: blue;
-
+    text-decoration-color:#3366cf;
 }
-.container-subcontainer .row1 .button1, .container-subcontainer .row1 .button2 {
-    margin: 0 5rem;
+.container-subcontainer .row1 .button1, .container-subcontainer .row5 .button1 {
+    margin-right:5rem;
 }
-.container-subcontainer .row2 .button1, .container-subcontainer .row2 .button2 {
-    margin: 0 11rem;
+.container-subcontainer .row2 .button1, .container-subcontainer .row4 .button1{
+    margin-right: 19.5rem;
 }
-.container-subcontainer .row3 .button1, .container-subcontainer .row3 .button2 {
-    margin: 0 13rem;
+.container-subcontainer .row3 .button1{
+    margin-right: 20rem;
 }
-.container-subcontainer .row4 .button1, .container-subcontainer .row4 .button2 {
-    margin: 0 11rem;
-}
-.container-subcontainer .row5 .button1, .container-subcontainer .row5 .button2 {
-    margin: 0 5rem;
-}
-.container div p{
-    color: blue;
+.container div .button p{
+    color:#3366cf;
     font-size: 2rem;
     padding-bottom: 1rem;
     text-align: center;
     width: 100%;
+    font-weight: bold;
 }
 .container div span{
     color: rgb(70, 69, 69);
@@ -108,7 +103,7 @@ html{
     border-bottom-right-radius: 0;
 }
 .container .searcher #text:focus-visible{
-    border: solid 1px blue;
+    border: solid 1px #3366cf;
 }
 .container .searcher #text:hover{
     border: solid 1px rgb(90, 90, 90);
@@ -121,26 +116,146 @@ html{
 .container .searcher #search-icon{
     height: 4rem;
     width: 5rem;
-    background-color: rgb(77, 77, 255);
+    background-color:#3366cf;
     border: none;
 }
 .container .searcher #search-icon:hover{
-    background-color: rgb(103, 103, 255);
+    background-color:#497adb;
 }
 .container .searcher #search-icon img{
     height: 4rem;
 }
 .container .container-language{
-    width: 100%;
-}
-.container .container-language div{
-    height: 3rem;
-    justify-content: center;
-    align-items: center;
     display: flex;
     width: 100%;
-    border: solid 1px grey;
+    justify-content: center;
+    align-items: center;
 }
-.container .container-language img{
-    height: 1rem;
+.container .container-language hr{
+    width: calc(100vw * 0.1);
+    height: 1px;
+    margin: 0 1rem;
+    border: transparent;
+    background-color: gray;
+}
+.container .container-language div{
+    height: 3.6rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 30rem;
+    border: solid 1px grey;
+    background-color: #f8f9fa;
+    font-size: 1.4rem;
+    color: #3366cf;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container .container-language #language-icon{
+    height: 1.5rem;
+    padding-left: 1rem;
+}
+.container .container-language #arrow{
+    height: 0.5rem;
+    padding-right: 1rem;
+}
+.line{
+    width: calc(100vw - 3rem);
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 33vw 65vw;
+    font-size: 1.3rem;
+    color: #54595d;
+    margin-top: 2rem;
+}
+.footer a{
+    color: #3366cf;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration-color:#3366cf ;
+    text-decoration: underline;
+}
+.footer .footer-left{
+    width: 33vw;
+    max-width: 40rem;
+    margin: 0 auto;
+}
+.footer .footer-left .footer-left-section{
+    display:inline-flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+.footer-left-section p{
+    width: calc(100% - 6.3rem);
+}
+.footer-left-section #circle{
+    width: 4.7rem;
+    height: 4.7rem;
+    margin-right: 1rem;
+}
+.footer-left-section #w{
+    width: 4.7rem;
+    height: 4.7rem;
+    margin-right: 1rem;
+}
+#grey{
+    background-color: #f8f9fa;
+}
+.footer-left-section #google, .footer-left-section #apple{
+    margin-top: 1rem;
+    margin-left: 4.7rem;
+    height: 4rem;
+}
+.footer .footer-right{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer .footer-right .footer-button{
+    display: flex;
+    padding: 1rem;
+    width: 33%;
+    cursor: pointer;
+}
+.footer .footer-right .footer-button:hover{
+    background-color: #f8f9fa;
+}
+.footer-button img{
+    height: 4.7rem;
+}
+.footer-button p{
+    color: #3366cf;
+    width: 33%;
+    height: auto;
+}
+.footer-button span{
+    position:absolute;
+    width: 8em;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+.footer-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    font-size: 1.3rem;
+}
+.footer-down ul{
+    display: flex;
+    list-style: none;
+}
+.footer-down li{
+    padding: 0 1rem;
+}
+.footer-down a{
+    color: #3366cf;
+    text-decoration: none;
+}
+.footer-down a:hover{
+    text-decoration: underline;
+    text-decoration-color:#3366cf ;
 }
